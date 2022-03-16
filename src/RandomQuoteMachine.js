@@ -9,7 +9,7 @@ const quotes = [
   ["Talent is a pursued interest. In other words, anything that you're willing to practice, you can do.", "Bob Ross"],  ["Life is like riding a bicycle. To keep your balance you must keep moving.", "Albert Einstein"], ["On my business card, I am a corporate president. In my mind, I am a game developer. But in my heart, I am a gamer.", "Satoru Iwata"], ["We are meant to know, or we are amoebae", "Isaac Asimov"], ["Lasting change is a series of compromises. And compromise is alright, as long your values don't change.", "Jane Goodall"], ["Life is not easy for any of us. But what of that? We must have perseverance and above all confidence in ourselves. We must believe that we are gifted for something, and that this thing, at whatever cost, must be attained.", "Marie Curie"]
 ];
 
-class App extends React.Component {
+class RandomQuoteMachine extends React.Component {
 constructor(props) {
 super(props);
 this.state = {
@@ -59,4 +59,4 @@ return (
 }
 }
 
-export default App;
+export default RandomQuoteMachine;
